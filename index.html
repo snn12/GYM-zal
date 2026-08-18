@@ -1,0 +1,583 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta
+    name="description"
+    content="LION GYM — Premium fitness klub. Peşəkar məşqçilər, müasir avadanlıqlar və fərdi məşq proqramları ilə güclü özünü qur."
+  />
+  <title>LION GYM — Daha Güclü Özünü Qur | Premium Fitness Club</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Oswald:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap"
+    rel="stylesheet"
+  />
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+
+  <!-- ============ HEADER / NAVBAR ============ -->
+  <header class="header" id="header">
+    <div class="container header__inner">
+      <a href="#hero" class="logo" aria-label="LION GYM ana səhifə">
+        <span class="logo__icon" aria-hidden="true">
+          <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+            <path d="M6.5 6.5l4-4 3 3 4-4 1.5 1.5-4 4 3 3-4 4-3-3-4 4-1.5-1.5 4-4z" fill="#FFD21F" stroke="#FFD21F" stroke-width="0"/>
+            <line x1="6.5" y1="6.5" x2="3" y2="10" stroke="#FFD21F"/>
+            <line x1="17.5" y1="6.5" x2="21" y2="10" stroke="#FFD21F"/>
+          </svg>
+        </span>
+        <span class="logo__text">LION<span class="logo__accent">GYM</span></span>
+      </a>
+
+      <nav class="nav" id="nav" aria-label="Əsas menyu">
+        <ul class="nav__list">
+          <li><a href="#hero" class="nav__link">Ana səhifə</a></li>
+          <li><a href="#services" class="nav__link">Xidmətlər</a></li>
+          <li><a href="#about" class="nav__link">Haqqımızda</a></li>
+          <li><a href="#pricing" class="nav__link">Qiymətlər</a></li>
+          <li><a href="#trainers" class="nav__link">Məşqçilər</a></li>
+          <li><a href="#contact" class="nav__link">Əlaqə</a></li>
+        </ul>
+      </nav>
+
+      <a href="#pricing" class="btn btn--primary header__cta">Qoşul</a>
+
+      <button class="burger" id="burger" aria-label="Menyunu aç" aria-expanded="false" aria-controls="nav">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <!-- ============ HERO ============ -->
+    <section class="hero" id="hero">
+      <div class="container hero__inner">
+        <div class="hero__content">
+          <span class="hero__badge reveal">Premium Fitness Club</span>
+          <h1 class="hero__title reveal">
+            DAHA GÜCLÜ<br /><span class="text-accent">ÖZÜNÜ QUR</span>
+          </h1>
+          <p class="hero__subtitle reveal">
+            Peşəkar məşqçilər, müasir avadanlıqlar və sənə uyğun fərdi məşq
+            proqramları ilə fitness məqsədlərinə çat.
+          </p>
+          <div class="hero__actions reveal">
+            <a href="#pricing" class="btn btn--primary btn--lg">İndi Qoşul</a>
+            <a href="#services" class="btn btn--ghost btn--lg">Proqramları Kəşf Et</a>
+          </div>
+        </div>
+
+        <div class="hero__visual reveal">
+          <div class="hero__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1541534741688-6078c6bfb5c5?auto=format&fit=crop&w=900&q=80"
+              alt="Gymdə məşq edən atletik kişi"
+              width="900"
+              height="1100"
+            />
+          </div>
+          <div class="hero__ring" aria-hidden="true"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SERVICES / PROGRAMS ============ -->
+    <section class="section services" id="services">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__tag">Məşq Proqramları</span>
+          <h2 class="section__title">Təklif Etdiyimiz <span class="text-accent">Proqramlar</span></h2>
+          <p class="section__lead">
+            Güclü, sağlam və daha özünə güvənli olmaq üçün lazım olan hər şey.
+          </p>
+        </div>
+
+        <div class="services__grid">
+          <article class="service reveal">
+            <div class="service__icon" aria-hidden="true">🏋️</div>
+            <h3>Güc Məşqləri</h3>
+            <p>Ağırlıq və güc məşqləri ilə əzələ kütləsini və gücü inkişaf etdir.</p>
+            <a href="#contact" class="service__link">Ətraflı →</a>
+          </article>
+          <article class="service reveal">
+            <div class="service__icon" aria-hidden="true">🎯</div>
+            <h3>Fərdi Məşq</h3>
+            <p>Fərdi məşqçi ilə individual proqram və tam diqqət.</p>
+            <a href="#contact" class="service__link">Ətraflı →</a>
+          </article>
+          <article class="service reveal">
+            <div class="service__icon" aria-hidden="true">🏃</div>
+            <h3>Kardio Məşqləri</h3>
+            <p>Dözümlülüyü və ürək sağlamlığını artıran kardio təlimlər.</p>
+            <a href="#contact" class="service__link">Ətraflı →</a>
+          </article>
+          <article class="service reveal">
+            <div class="service__icon" aria-hidden="true">🔥</div>
+            <h3>Funksional Məşqlər</h3>
+            <p>Gündəlik fiziki performansı artıran funksional təlimlər.</p>
+            <a href="#contact" class="service__link">Ətraflı →</a>
+          </article>
+          <article class="service reveal">
+            <div class="service__icon" aria-hidden="true">🧑‍🤝‍🧑</div>
+            <h3>Qrup Məşqləri</h3>
+            <p>Enerjili qrup seansları ilə motivasiyalı məşq təcrübəsi.</p>
+            <a href="#contact" class="service__link">Ətraflı →</a>
+          </article>
+          <article class="service reveal">
+            <div class="service__icon" aria-hidden="true">🥗</div>
+            <h3>Qidalanma Məsləhəti</h3>
+            <p>Fitness məqsədlərinə uyğun fərdi qidalanma planı.</p>
+            <a href="#contact" class="service__link">Ətraflı →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section about" id="about">
+      <div class="container about__grid">
+        <div class="about__media reveal">
+          <div class="about__img-wrap">
+            <img
+              src="https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1000&q=80"
+              alt="LION GYM-in müasir məşq zalı"
+              loading="lazy"
+              width="1000"
+              height="750"
+            />
+          </div>
+          <div class="about__badge" aria-hidden="true">
+            <strong>10+</strong>
+            <span>İl<br />Təcrübə</span>
+          </div>
+        </div>
+
+        <div class="about__content reveal">
+          <span class="section__tag">Haqqımızda</span>
+          <h2 class="section__title">Sadəcə Bir Gym-dən <span class="text-accent">Daha Çox</span></h2>
+          <p class="about__text">
+            Bizim fitness klubda inanırıq ki, məşq sadəcə görünüşdən ibarət deyil.
+            Hər gün daha güclü, daha sağlam və daha özünə güvənli olmaqdan ibarətdir.
+          </p>
+          <ul class="about__list">
+            <li>Müasir Avadanlıqlar</li>
+            <li>Peşəkar Məşqçilər</li>
+            <li>Fərdi Proqramlar</li>
+            <li>Dostlar Qrupu Atmosferi</li>
+          </ul>
+          <a href="#contact" class="btn btn--ghost">Daha Çox Öyrən</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ WHY CHOOSE US ============ -->
+    <section class="section why" id="why">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__tag">Üstünlüklərimiz</span>
+          <h2 class="section__title">Niyə Bizim <span class="text-accent">Gym?</span></h2>
+        </div>
+
+        <div class="why__grid">
+          <div class="why__item reveal">
+            <div class="why__icon" aria-hidden="true">⚙️</div>
+            <h3>Müasir Avadanlıqlar</h3>
+            <p>Ən son texnologiyalı fitness avadanlıqları parkı.</p>
+          </div>
+          <div class="why__item reveal">
+            <div class="why__icon" aria-hidden="true">🎓</div>
+            <h3>Ekspert Məşqçilər</h3>
+            <p>Peşəkar və sertifikatlı məşqçi komandası.</p>
+          </div>
+          <div class="why__item reveal">
+            <div class="why__icon" aria-hidden="true">🎯</div>
+            <h3>Fərdi Məşq</h3>
+            <p>Hər üzv üçün individual yanaşma və plan.</p>
+          </div>
+          <div class="why__item reveal">
+            <div class="why__icon" aria-hidden="true">📅</div>
+            <h3>Çevik Üzvlük</h3>
+            <p>Müxtəlif ehtiyaclara uyğun üzvlük paketləri.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ PRICING ============ -->
+    <section class="section pricing" id="pricing">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__tag">Paketlər və Qiymətlər</span>
+          <h2 class="section__title">Üzvlüyünü <span class="text-accent">Seç</span></h2>
+          <p class="section__lead">
+            Hər fitness səviyyəsi üçün hazırlanmış sadə və çevik planlar.
+          </p>
+        </div>
+
+        <div class="pricing__grid">
+          <article class="price-card reveal">
+            <div class="price-card__head">
+              <span class="price-card__name">STARTER</span>
+              <div class="price-card__price">
+                <span class="price-card__amount">30</span>
+                <span class="price-card__period">AZN<span>/ay</span></span>
+              </div>
+            </div>
+            <ul class="price-card__list">
+              <li>Gym istifadəsi</li>
+              <li>Həftədə 3 gün</li>
+              <li>Soyunma otağı</li>
+              <li>Əsas məşq rəhbərliyi</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost price-card__btn">Başla</a>
+          </article>
+
+          <article class="price-card price-card--featured reveal">
+            <span class="price-card__pop">Ən Çox Seçilən</span>
+            <div class="price-card__head">
+              <span class="price-card__name">STANDARD</span>
+              <div class="price-card__price">
+                <span class="price-card__amount">50</span>
+                <span class="price-card__period">AZN<span>/ay</span></span>
+              </div>
+            </div>
+            <ul class="price-card__list">
+              <li>Limitsiz Gym istifadəsi</li>
+              <li>Qrup məşqləri</li>
+              <li>Fitness proqramı</li>
+              <li>Soyunma otağı</li>
+              <li>Əsas qidalanma məsləhəti</li>
+            </ul>
+            <a href="#contact" class="btn btn--primary price-card__btn">Başla</a>
+          </article>
+
+          <article class="price-card reveal">
+            <div class="price-card__head">
+              <span class="price-card__name">PREMIUM</span>
+              <div class="price-card__price">
+                <span class="price-card__amount">80</span>
+                <span class="price-card__period">AZN<span>/ay</span></span>
+              </div>
+            </div>
+            <ul class="price-card__list">
+              <li>Limitsiz Gym istifadəsi</li>
+              <li>Fərdi məşqçi</li>
+              <li>Fərdi məşq proqramı</li>
+              <li>Qidalanma məsləhəti</li>
+              <li>Qrup məşqləri</li>
+              <li>İnkişafın izlənilməsi</li>
+            </ul>
+            <a href="#contact" class="btn btn--ghost price-card__btn">Premium-a Qoşul</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ TRAINERS ============ -->
+    <section class="section trainers" id="trainers">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__tag">Komandamız</span>
+          <h2 class="section__title">Məşqçilərimizlə <span class="text-accent">Tanış Ol</span></h2>
+        </div>
+
+        <div class="trainers__grid">
+          <div class="trainer reveal">
+            <div class="trainer__img">
+              <img
+                src="https://images.unsplash.com/photo-1593079831268-3381b0db4a77?auto=format&fit=crop&w=800&h=800&q=85"
+                alt="Güc məşqçisi Murad Əliyev"
+                loading="lazy"
+                width="800"
+                height="800"
+              />
+              <div class="trainer__social">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="YouTube">YT</a>
+              </div>
+            </div>
+            <h3 class="trainer__name">Murad Əliyev</h3>
+            <span class="trainer__role">Güc Məşqçisi</span>
+            <span class="trainer__exp">8 il təcrübə</span>
+          </div>
+
+          <div class="trainer reveal">
+            <div class="trainer__img">
+              <img
+                src="https://images.unsplash.com/photo-1581009146145-b5ef050c2e1e?auto=format&fit=crop&w=800&h=800&q=85"
+                alt="Fitness məşqçisi Aysel Məmmədova"
+                loading="lazy"
+                width="800"
+                height="800"
+              />
+              <div class="trainer__social">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="YouTube">YT</a>
+              </div>
+            </div>
+            <h3 class="trainer__name">Aysel Məmmədova</h3>
+            <span class="trainer__role">Fitness Məşqçisi</span>
+            <span class="trainer__exp">6 il təcrübə</span>
+          </div>
+
+          <div class="trainer reveal">
+            <div class="trainer__img">
+              <img
+                src="https://images.unsplash.com/photo-1594737625785-a6cbdabd333c?auto=format&fit=crop&w=800&h=800&q=85"
+                alt="Fərdi məşqçi Rəşad Hüseynov"
+                loading="lazy"
+                width="800"
+                height="800"
+              />
+              <div class="trainer__social">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="YouTube">YT</a>
+              </div>
+            </div>
+            <h3 class="trainer__name">Rəşad Hüseynov</h3>
+            <span class="trainer__role">Fərdi Məşqçi</span>
+            <span class="trainer__exp">10 il təcrübə</span>
+          </div>
+
+          <div class="trainer reveal">
+            <div class="trainer__img">
+              <img
+                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?auto=format&fit=crop&w=800&h=800&q=85"
+                alt="Yoga və hərəkətlilik məşqçisi Nigar Həsənova"
+                loading="lazy"
+                width="800"
+                height="800"
+              />
+              <div class="trainer__social">
+                <a href="#" aria-label="Instagram">IG</a>
+                <a href="#" aria-label="Facebook">FB</a>
+                <a href="#" aria-label="YouTube">YT</a>
+              </div>
+            </div>
+            <h3 class="trainer__name">Nigar Həsənova</h3>
+            <span class="trainer__role">Yoga və Hərəkətlilik</span>
+            <span class="trainer__exp">7 il təcrübə</span>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ MOTIVATION ============ -->
+    <section class="motivation" id="motivation">
+      <div class="motivation__bg" aria-hidden="true"></div>
+      <div class="container motivation__content">
+        <h2 class="motivation__title reveal">Bəhanə Yox. <span class="text-accent">Yalnız Nəticə.</span></h2>
+        <p class="motivation__text reveal">İnkişafa bu gün başla.</p>
+        <a href="#pricing" class="btn btn--primary btn--lg reveal">İndi Qoşul</a>
+      </div>
+    </section>
+
+    <!-- ============ TESTIMONIALS ============ -->
+    <section class="section reviews" id="reviews">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__tag">Müştəri Rəyləri</span>
+          <h2 class="section__title">Üzvlərimiz <span class="text-accent">Nə Deyir</span></h2>
+        </div>
+
+        <div class="reviews__grid">
+          <article class="review reveal">
+            <div class="review__stars" aria-label="5 ulduz">★★★★★</div>
+            <p class="review__text">
+              "Bu gymə qoşulandan bəri həyat tərzimi tamamilə dəyişdim. Məşqçilər
+              peşəkar, atmosfer isə mükəmməldir."
+            </p>
+            <div class="review__user">
+              <div class="review__avatar review__avatar--1" aria-hidden="true"></div>
+              <div>
+                <strong>Murad R.</strong>
+                <span>Üzv, 2 il</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars" aria-label="5 ulduz">★★★★★</div>
+            <p class="review__text">
+              "Fərdi məşq proqramı heç vaxt mümkün bilmədiyim nəticələrə çatmağıma
+              kömək etdi."
+            </p>
+            <div class="review__user">
+              <div class="review__avatar review__avatar--2" aria-hidden="true"></div>
+              <div>
+                <strong>Aysel K.</strong>
+                <span>Üzv, 1 il</span>
+              </div>
+            </div>
+          </article>
+
+          <article class="review reveal">
+            <div class="review__stars" aria-label="5 ulduz">★★★★★</div>
+            <p class="review__text">
+              "Əla avadanlıqlar, mehriban insanlar və əla məşqçilər. Hamıya
+              tövsiyə edirəm!"
+            </p>
+            <div class="review__user">
+              <div class="review__avatar review__avatar--3" aria-hidden="true"></div>
+              <div>
+                <strong>Elvin M.</strong>
+                <span>Üzv, 6 ay</span>
+              </div>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CTA ============ -->
+    <section class="section cta" id="cta">
+      <div class="container cta__box reveal">
+        <h2 class="cta__title">Güclü Olmağa <span class="text-accent">Hazırsan?</span></h2>
+        <p class="cta__text">Fitness səyahətinə bu gün başla.</p>
+        <a href="#pricing" class="btn btn--primary btn--lg">İndi Qoşul</a>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section contact" id="contact">
+      <div class="container">
+        <div class="section__head reveal">
+          <span class="section__tag">Əlaqə</span>
+          <h2 class="section__title">Bizimlə <span class="text-accent">Əlaqə Saxla</span></h2>
+        </div>
+
+        <div class="contact__grid">
+          <div class="contact__info reveal">
+            <div class="contact__item">
+              <div class="contact__icon" aria-hidden="true">📍</div>
+              <div>
+                <h3>Ünvan</h3>
+                <p>123 Fitness küçəsi, Bakı, Azərbaycan</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon" aria-hidden="true">📞</div>
+              <div>
+                <h3>Telefon</h3>
+                <p><a href="tel:+994500000000">+994 50 000 00 00</a></p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon" aria-hidden="true">✉️</div>
+              <div>
+                <h3>E-mail</h3>
+                <p><a href="mailto:info@liongym.az">info@liongym.az</a></p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon" aria-hidden="true">🕐</div>
+              <div>
+                <h3>İş Saatları</h3>
+                <p>Bazar ertəsi – Bazar<br />06:00 – 23:00</p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon" aria-hidden="true">📸</div>
+              <div>
+                <h3>Instagram</h3>
+                <p><a href="https://instagram.com/_1senan" target="_blank" rel="noopener">_1senan</a></p>
+              </div>
+            </div>
+            <div class="contact__item">
+              <div class="contact__icon" aria-hidden="true">💬</div>
+              <div>
+                <h3>WhatsApp</h3>
+                <p><a href="https://wa.me/994500000000" target="_blank" rel="noopener">+994 50 000 00 00</a></p>
+              </div>
+            </div>
+          </div>
+
+          <form class="contact__form reveal" id="contactForm" novalidate>
+            <div class="form__row">
+              <div class="form__group">
+                <label for="name">Ad Soyad</label>
+                <input type="text" id="name" name="name" placeholder="Ad Soyad" required />
+              </div>
+              <div class="form__group">
+                <label for="email">E-mail</label>
+                <input type="email" id="email" name="email" placeholder="email@example.com" required />
+              </div>
+            </div>
+            <div class="form__group">
+              <label for="phone">Telefon</label>
+              <input type="tel" id="phone" name="phone" placeholder="+994 50 000 00 00" />
+            </div>
+            <div class="form__group">
+              <label for="message">Mesaj</label>
+              <textarea id="message" name="message" rows="4" placeholder="Mesajını yaz..." required></textarea>
+            </div>
+            <button type="submit" class="btn btn--primary btn--lg form__submit">Mesajı Göndər</button>
+            <p class="form__status" id="formStatus" aria-live="polite"></p>
+          </form>
+        </div>
+
+        <div class="map reveal">
+          <iframe
+            title="LION GYM yerləşmə xəritəsi"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3040.5!2d49.8!3d40.4!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNDDCsDI0JzAwLjAiTiA0OcKwNDgnMDAuMCJF!5e0!3m2!1saz!2saz!4v1700000000000!5m2!1saz!2saz"
+            allowfullscreen
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container footer__grid">
+      <div class="footer__brand">
+        <a href="#hero" class="logo">
+          <span class="logo__text">LION<span class="logo__accent">GYM</span></span>
+        </a>
+        <p class="footer__desc">
+          Premium fitness klub. Peşəkar məşqçilər və müasir avadanlıqlarla
+          güclü özünü qur.
+        </p>
+      </div>
+
+      <nav class="footer__nav" aria-label="Footer menyusu">
+        <h4>Menyu</h4>
+        <ul>
+          <li><a href="#hero">Ana səhifə</a></li>
+          <li><a href="#about">Haqqımızda</a></li>
+          <li><a href="#services">Xidmətlər</a></li>
+          <li><a href="#pricing">Qiymətlər</a></li>
+          <li><a href="#trainers">Məşqçilər</a></li>
+          <li><a href="#contact">Əlaqə</a></li>
+        </ul>
+      </nav>
+
+      <div class="footer__social">
+        <h4>Bizi İzlə</h4>
+        <div class="footer__social-icons">
+          <a href="#" aria-label="Instagram">IG</a>
+          <a href="#" aria-label="Facebook">FB</a>
+          <a href="#" aria-label="YouTube">YT</a>
+          <a href="#" aria-label="TikTok">TT</a>
+        </div>
+      </div>
+    </div>
+
+    <div class="footer__bottom">
+      <div class="container">
+        <p>© <span id="year">2026</span> LION GYM Fitness Club. Bütün hüquqlar qorunur.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
